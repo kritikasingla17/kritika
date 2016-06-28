@@ -1,1 +1,10 @@
-# kritika
+<html>
+  <head>
+    <title>My Web Page being rendered through a Web Server</title>
+  </head>
+  <body>
+    <h1>Welcome to the StackRoute Program</h1>
+    <p>This Page is being rendered from a Static Web Server!!</p>
+    <p>Kritika</p>
+  </body>
+</html>
