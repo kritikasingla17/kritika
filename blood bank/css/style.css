@@ -1,0 +1,116 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+
+}
+/*#header{
+	top: 0px;
+	position:fixed;
+	background-color: white;
+}*/
+.main{
+	background: url(blood bank/images/footer.png) no-repeat;
+}
+
+.image{
+	float: left;
+	width: 195px;
+	height: 80px;
+}
+.right{
+	float: right;
+	padding-top: 75px;
+	font-size: 14px;
+}
+#menulist{
+	padding-top: 5px;
+	background-color: red;
+}
+#menulist li{
+	display: inline;
+	font-size: 18px;
+}
+#menulist li a{
+	padding-left: 10px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+.section1 div{
+	/*margin-top: 180px;*/
+	height: 220px;
+} 
+.wrap11{
+	background-color: #e5e7e9;
+}
+.wrap11 p{
+	margin-top: 5px;
+	margin-left: 25px;
+	font-size: 14px;
+}
+#heading{
+	font-size: 18px;
+	color: green;
+}
+#state {
+	font-size: 10px;
+	margin-left: 66px;
+}
+#city {
+	font-size: 10px;
+	margin-left: 74px;
+}
+#area {
+	font-size: 10px;
+	margin-left: 68px;
+}
+#blood_group {
+	font-size: 10px;
+	margin-left: 22px;
+}
+.wrap12{
+	background-color: #85c1e9;
+	font-size: 14px;
+
+}
+.wrap12 p{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.wrap12 h2{
+	margin-left: 25px;
+}
+.wrap12 p{
+	margin-left: 25px;
+}
+.section2 div{
+	margin-top: 10px;
+	height: 200px;
+} 
+.section3 div{
+	margin-top: 10px;
+	height: 200px;
+} 
+.wrap31 {
+	background-color: #e5e7e9;
+}
+.wrap31 h3{
+	margin-top: 0px;
+}
+.wrap31 p{
+	margin-top: 0px;
+	font-size: 12px;
+}
+.wrap32{
+	background-color: #e5e7e9;
+}
+footer p{
+	padding-top: 50px;
+	text-align: center;
+}
+footer p a{
+	text-decoration: none;
+}
+
+
+
