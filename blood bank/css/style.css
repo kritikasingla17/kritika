@@ -1,28 +1,27 @@
 body{
 	font-family: 'Titillium Web', sans-serif;
-
+	margin: 0px;
 }
-/*#header{
-	top: 0px;
-	position:fixed;
+/*------------header---------------*/
+header{
+	position: fixed;
 	background-color: white;
-}*/
-.main{
-	background: url(blood bank/images/footer.png) no-repeat;
 }
 
 .image{
-	float: left;
-	width: 195px;
-	height: 80px;
+	margin: 120px 0px 0px 0px;
+	margin-left:0px;
 }
-.right{
-	float: right;
-	padding-top: 75px;
+.login-header{
+	text-align:right;
 	font-size: 14px;
+	height: 40px;
+	margin-top: 40px;
+}
+.div-clear {
+	float:clear;
 }
 #menulist{
-	padding-top: 5px;
 	background-color: red;
 }
 #menulist li{
@@ -30,23 +29,24 @@ body{
 	font-size: 18px;
 }
 #menulist li a{
-	padding-left: 10px;
+	margin: 0px;
+	padding: 0px;
 	display: inline-block;
 	text-decoration: none;
 	color: white;
 }
-
-.section1 div{
-	/*margin-top: 180px;*/
-	height: 220px;
-} 
-.wrap11{
-	background-color: #e5e7e9;
+#menulist li a::after { 
+    content: "|";
+    margin:8px;
 }
-.wrap11 p{
-	margin-top: 5px;
-	margin-left: 25px;
-	font-size: 14px;
+/*------------------body content-------------*/
+.dividerLine {
+	border: 0px;
+	border-left: 2px;
+	margin: 0px 2px;
+	border-style: solid;
+	padding: 0px 15px;
+	border-color: RED;
 }
 #heading{
 	font-size: 18px;
@@ -54,61 +54,32 @@ body{
 }
 #state {
 	font-size: 10px;
-	margin-left: 66px;
+	margin-left: 82px;
 }
 #city {
 	font-size: 10px;
-	margin-left: 74px;
+	margin-left: 90px;
 }
 #area {
 	font-size: 10px;
-	margin-left: 68px;
+	margin-left: 84px;
 }
 #blood_group {
 	font-size: 10px;
-	margin-left: 22px;
+	margin-left: 32px;
 }
-.wrap12{
-	background-color: #85c1e9;
-	font-size: 14px;
+.border{
+	background-color:WHITE;
+	border-style:	dashed;
+	border-color: RED;
 
 }
-.wrap12 p{
-	margin-left: 25px;
-	margin-right: 25px;
+/*----------------------------footer-------------------------*/
+footer {
+	text-align: center;	
 }
-.wrap12 h2{
-	margin-left: 25px;
-}
-.wrap12 p{
-	margin-left: 25px;
-}
-.section2 div{
-	margin-top: 10px;
-	height: 200px;
-} 
-.section3 div{
-	margin-top: 10px;
-	height: 200px;
-} 
-.wrap31 {
-	background-color: #e5e7e9;
-}
-.wrap31 h3{
-	margin-top: 0px;
-}
-.wrap31 p{
-	margin-top: 0px;
-	font-size: 12px;
-}
-.wrap32{
-	background-color: #e5e7e9;
-}
-footer p{
-	padding-top: 50px;
-	text-align: center;
-}
-footer p a{
+footer a{
+	color: WHITE;
 	text-decoration: none;
 }
 
